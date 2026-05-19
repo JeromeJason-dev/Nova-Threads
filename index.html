@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Threads</title>
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="print.css" media="print">
+    <script src="https://kit.fontawesome.com/576b15dc95.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="navbar">
+        <h1 class="logo">Nova Threads</h1>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <button class="cart-btn">
+            <i class="fa-solid fa-cart-shopping"></i>
+        </button>
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Look good. Do good. Feel incredible.</h2>
+            <p>We create premium, everyday essentials using 100% organic and recycled materials. By partnering exclusively with fair-trade certified factories, we ensure that every garment we make supports both the planet and the people who crafted it.</p>
+            <button><strong>Shop Now</strong></button>
+        </div>
+    </section>
+
+    <!-- FILTER BAR -->
+    <section class="filters">
+        <select>
+            <option>Sort by Price</option>
+            <option>Low to High</option>
+            <option>High to Low</option>
+        </select>
+
+        <select>
+            <option>Category</option>
+            <option>Shirts</option>
+            <option>Jeans</option>
+            <option>Dress</option>
+            <option>Jacket</option>
+            <option>Poncho</option>
+        </select>
+    </section>
+
+    <!-- PRODUCT GRID -->
+    <main class="product-grid" id="products">
+
+        <!-- PRODUCT CARD -->
+        <article class="product-card">
+            <img src="assets/images/t-shirt1.jpg" alt="t-shirt">
+
+            <div class="product-info">
+                <h3>T-shirt</h3>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+
+                <p class="price">$199</p>
+
+                <a href="#t-shirt-modal" class="add-cart">View Product</a>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <img src="assets/images/jeans.jpg" alt="jeans">
+
+            <div class="product-info">
+                <h3>Jeans</h3>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p class="price">$299</p>
+
+                <a href="#jeans-modal" class="add-cart">View Product</a>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <img src="assets/images/dress.jpg" alt="dress">
+
+            <div class="product-info">
+                <h3>Dress</h3>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+
+                <p class="price">$199</p>
+
+                <a href="#product-modal" class="add-cart">View Product</a>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <img src="assets/images/jacket.jpg" alt="Smartphone">
+
+            <div class="product-info">
+                <h3>Jacket</h3>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p class="price">$999</p>
+
+                <a href="#product-modal" class="add-cart">View Product</a>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <img src="assets/images/poncho.jpg" alt="poncho">
+
+            <div class="product-info">
+                <h3>Poncho</h3>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p class="price">$59</p>
+
+                <a href="#product-modal" class="add-cart">View Product</a>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <img src="assets/images/sweatshirt.jpg" alt="sweatshirt">
+
+            <div class="product-info">
+                <h3>Sweatshirt</h3>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p class="price">$149</p>
+
+                <a href="#product-modal" class="add-cart">View Product</a>
+            </div>
+        </article>
+
+    </main>
+
+    <!-- SHOPPING CART SIDEBAR -->
+    <aside class="cart-sidebar">
+        <h2>Your Cart</h2>
+
+        <div class="cart-item">
+            <p>Jacket</p>
+            <span>$999</span>
+        </div>
+
+        <div class="cart-item">
+            <p>Dress</p>
+            <span>$199</span>
+        </div>
+
+        <button class="checkout-btn">Checkout</button>
+    </aside>
+   
+    <!--footer section-->
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <!-- BRAND SECTION -->
+            <div class="footer-section">
+                <h2>Nova Threads</h2>
+
+                <p>
+                    Premium clothing store focused on modern styling and fashion. 
+                </p>
+
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/Tech-haven" target="_blank"><i
+                            class="fa-brands fa-facebook"></i>Facebook</a> |
+                    <a href="https://www.instagram.com/Tech-haven" target="_blank"><i
+                            class="fa-brands fa-instagram"></i>Instagram</a> |
+                    <a href="https://www.tiktok.com/Tech-haven" target="_blank"><i
+                            class="fa-brands fa-tiktok"></i>TikTok</a>
+                </div>
+            </div>
+            <!-- QUICK LINKS -->
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#">Deals</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <!-- NEWSLETTER -->
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+
+                <p>
+                    Get updates on exclusive deals and new arrivals.
+                </p>
+
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+
+                    <button type="submit">
+                        Subscribe
+                    </button>
+                </form>
+            </div>
+
+            <!-- CUSTOMER SERVICE -->
+            <div class="footer-section">
+                <h3>Customer Service</h3>
+
+                <ul>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Returns & Refunds</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Track Order</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <!-- FOOTER BOTTOM -->
+        <div class="footer-bottom">
+            <p>
+                &copy; 2026 Nova Threads. All Rights Reserved.
+            </p>
+        </div>
+
+
+</body>
+
+</html>
