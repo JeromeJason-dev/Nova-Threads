@@ -323,7 +323,7 @@ body {
       opacity: 0.5;
    }
   }
-
+/* Dark mode */
   @media (prefers-color-scheme: dark) {
     body {
         background: #1d0f4d;
@@ -340,7 +340,7 @@ body {
         color: white;
     }
 }
-
+/* Responsiveness */
 @media (max-width: 768px) {
 
     .navbar {
@@ -397,7 +397,7 @@ body {
         top: auto;
     }
 }
-
+/* print */
 @media print {
     .navbar,
     .filters,
