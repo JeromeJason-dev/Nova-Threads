@@ -45,19 +45,21 @@ body {
 /* hero section */
 .hero {
     height: 75vh;
-    background: linear-gradient(rgba(36, 16, 16, 0.5),rgba(69, 17, 17, 0.5)),url(assets/images/clothe-store.jpg) center/cover;
+    background: linear-gradient(rgba(89, 74, 74, 0.5),rgba(79, 52, 52, 0.5)),url(assets/images/clothe-store.jpg) center/cover;
     display: flex;
+    margin-left: 20rem;
     
 }
  .hero-content {
     font-size:x-large;
     margin-top: 1rem;
-    color:black;
-    padding: 15px;
+    color:white;
+    padding: 10px;
+    margin-left: 13rem;
  }
 
  .hero-content button {
-   margin-left: 30rem;
+   margin-left: 19rem;
    margin-top: 15rem;
     padding: 2rem 3rem;
     border: none;
@@ -73,6 +75,7 @@ body {
     display: flex;
     gap: 2rem;
     padding: 1rem;
+    margin-left: 20rem;
  }
  .filters select {
     padding: 0.8rem;
@@ -85,6 +88,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(250px,2fr));
     gap: 2rem;
     padding: 2rem;
+    margin-left: 20rem;
  }
 
  /* Product Card */
@@ -115,7 +119,7 @@ body {
  }
 
  .product-info h3 {
-    margin-bottom: 0.5rem;
+    margin-bottom:0.5rem;
  }
  .rating {
     color: gold;
@@ -123,7 +127,7 @@ body {
  }
 
  .price {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     font-weight: bold;
     margin-bottom: 1rem;
  }
@@ -141,22 +145,21 @@ body {
  /*  Cart Sidebar */
 
   .cart-sidebar {
-   position: relative;
-   left: 1;
-   bottom: 1;
-    
+   position: absolute;
+   left: 0;
+   top: 4.6rem; 
    width: 300px;
-   height: 35vh;
-
+   height: 200vh;
    background: white;
    padding: 2rem;
+   z-index: 1;
    box-shadow: -5px 0 15px rgba(35, 25, 25, 0.1);
   }
 
   .cart-item {
    display: flex;
    justify-content: space-between; 
-   margin: 1rem 0;
+   margin: 1rem ;
   }
 
   .checkout-btn {
@@ -171,7 +174,7 @@ body {
  
  /* Footer */
   .footer {
-    background-color: bisque;
+    background-color: rgb(153, 124, 90);
     color:black;
     margin-top: 2rem;
     padding-top: 2rem;
@@ -197,7 +200,7 @@ body {
   .footer-section a {
     color: rgb(158, 6, 102);
     text-decoration: none;
-    transition: 0.3s ease;
+    transition: 0.4s ease;
     
   }
   .footer-section a:hover{
@@ -243,24 +246,23 @@ body {
   }
   .newsletter-form button {
    padding: 1rem;
-
    border: none;
    border-radius: 8px;
-   background: peru;
-   color: wheat;
-   
+   background: rgb(205, 72, 63);
+   color: rgb(179, 245, 195);
    transition: 0.3s ease;
   }
 
   .newsletter-form button:hover {
    background: rgb(170, 0, 255);
+   transform: translateY(-3px);
   }
 
   .footer-bottom {
    margin-top: 3rem;
    padding: 1.5rem;
    text-align: center;
-   border-top: 1px solid rgba(74, 39, 15, 0.1);
+   border-top: 1px solid rgba(16, 16, 15, 0.5);
 
   }
 
@@ -268,16 +270,12 @@ body {
   .modal {
    position: fixed;
    inset: 0;
-
-   background: rgba(158, 32, 32, 0.6);
-
+   background: rgba(118, 27, 27, 0.6);
    display: flex;
    justify-content: center;
    align-items: center;
-
    opacity: 0;
    visibility: hidden;
-
    transition: 0.3s ease;
   }
 .modal-content {
