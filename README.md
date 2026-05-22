@@ -61,10 +61,11 @@ Each category contains product cards with:
 ## Getting Started
 
 ### Clone the Repository
+```bash
+git clone https://github.com/JeromeJason-dev/Nova-Threads.git
 
-https://github.com/JeromeJason-dev/Nova-Threads.git
-
-Open the project and go to **index.html**
+cd Nova-Threads
+```
 
 ## Project Structure
 
